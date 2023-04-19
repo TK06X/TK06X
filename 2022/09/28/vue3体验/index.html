@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    
+    <meta name="author" content="六月">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://evan.beee.top" crossorigin>
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="http://example.com/2022/09/28/vue3体验/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="这是文章摘要 This is the excerpt of the post">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Redefine 主题使用指南">
+<meta property="og:url" content="http://example.com/2022/09/28/vue3%E4%BD%93%E9%AA%8C/index.html">
+<meta property="og:site_name" content="Wanderer&#39;s Vow">
+<meta property="og:description" content="这是文章摘要 This is the excerpt of the post">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://em-content.zobj.net/source/microsoft-teams/337/grimacing-face_1f62c.png">
+<meta property="og:image" content="http://example.com/2022/09/28/vue3%E4%BD%93%E9%AA%8C/image-20230401214156156.png">
+<meta property="og:image" content="http://example.com/2022/09/28/vue3%E4%BD%93%E9%AA%8C/image-20230401214114835.png">
+<meta property="og:image" content="http://example.com/image-20230401215351385.png">
+<meta property="og:image" content="http://example.com/image-20230401215747762.png">
+<meta property="og:image" content="http://example.com/image-20230401221051388.png">
+<meta property="og:image" content="http://example.com/image-20230401220345699.png">
+<meta property="og:image" content="c:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230403162716244.png">
+<meta property="article:published_time" content="2022-09-28T03:45:14.000Z">
+<meta property="article:modified_time" content="2023-04-19T15:09:49.124Z">
+<meta property="article:author" content="六月">
+<meta property="article:tag" content="tags">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://em-content.zobj.net/source/microsoft-teams/337/grimacing-face_1f62c.png">
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/redefine-favicon.svg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/redefine-favicon.svg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/redefine-favicon.svg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            Redefine 主题使用指南 -
+        
+        风逝诺言
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<link rel="stylesheet" href="/assets/fonts.css">
+
+    <!--- Font Part-->
+    
+    
+    
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    
+
+    <!--- Inject Part-->
+    
+    <script id="hexo-configurations">
+    let Global = window.Global || {};
+    Global.hexo_config = {"hostname":"example.com","root":"/","language":"zh-CN"};
+    Global.theme_config = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[""]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":true,"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null},"global":{"fonts":{"chinese":{"enable":true,"family":"Noto Sans SC","url":"https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap"},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"busuanzi_counter":{"enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"pjax":true,"open_graph":true},"home_banner":{"enable":true,"image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title":"风逝诺言","subtitle":{"text":["loading......."],"hitokoto":{"enable":true,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"links":{"github":null,"instagram":null,"zhihu":null,"twitter":null,"email":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.1.2","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"Archives":{"path":"/archives","icon":"fa-solid fa-wand-magic-sparkles"},"Github":{"path":"https://github.com/TK06X/TK06X.github.io","icon":"fa-brands fa-github"}},"search":{"enable":false,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"你的以为与我无关","links":null},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}}};
+    Global.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="pjax-progress-icon">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="main-content-container">
+
+        <div class="main-content-header">
+            <header class="navbar-container">
+    
+    <div class="navbar-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                
+                风逝诺言
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-house"></i>
+                                        
+                                        首页
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/archives"  >
+                                    
+                                        
+                                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                        
+                                        归档
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    target="_blank" rel="noopener" href="https://github.com/TK06X/TK06X.github.io"  >
+                                    
+                                        
+                                            <i class="fa-brands fa-github"></i>
+                                        
+                                        GITHUB
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="navbar-drawer">
+        <ul class="drawer-navbar-list">
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        href="/"  >
+                             
+                                
+                                    <i class="fa-regular fa-house"></i>
+                                
+                                首页
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        href="/archives"  >
+                             
+                                
+                                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                
+                                归档
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        target="_blank" rel="noopener" href="https://github.com/TK06X/TK06X.github.io"  >
+                             
+                                
+                                    <i class="fa-brands fa-github"></i>
+                                
+                                GITHUB
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            
+             
+                <div class="article-title">         
+                    <img src="https://evan.beee.top/img/2023/01/21/5966cf4d2f2c05aecad54e233d9562ff.png" alt="Redefine 主题使用指南" />
+                    <h1 class="article-title-cover">Redefine 主题使用指南</h1>
+                </div>
+            
+                
+            
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/redefine-avatar.svg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">六月</span>
+                            
+                                <span class="author-label"></span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2022-09-28 11:45:14</span>
+        <span class="mobile">2022-09-28 11:45</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2023-04-19 23:09:49</span>
+            <span class="mobile">2023-04-19 23:09</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/categories/">categories</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/tags/">tags</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content markdown-body">
+                <hr>
+<p>目的：学习，方便加钱<br>原因：vite 没用过 vue3没学过 ts不熟练<br>时间：2023&#x2F;04&#x2F;01<br>vue3.0x + typescript + vite </p>
+<hr>
+<h1 id="vue3-TS-vite-star-star-star-star-star"><a href="#vue3-TS-vite-star-star-star-star-star" class="headerlink" title="vue3+TS+vite :star::star::star::star::star:"></a>vue3+TS+vite :star::star::star::star::star:</h1><h2 id="一、准备"><a href="#一、准备" class="headerlink" title="一、准备"></a>一、准备</h2><h3 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h3><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://em-content.zobj.net/source/microsoft-teams/337/grimacing-face_1f62c.png"
+                      alt="Grimacing Face on Microsoft Teams 1.0"
+                ></p>
+<p><code>npm</code> 或 <code>yarn</code> 、<code>pnpm</code> 都可以</p>
+<ul>
+<li><p>npm</p>
+<p>到手后的项目使用：</p>
+</li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br><span class="line">npm run dev</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>yarn</li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yarn install</span><br><span class="line">yarn serve</span><br><span class="line">yarn bulid</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>pnpm:star:</li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pnpm install</span><br><span class="line">pnpm serve  //pnpm run dev</span><br><span class="line">pnpm build</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="工具webpack-or-vite"><a href="#工具webpack-or-vite" class="headerlink" title="工具webpack or vite"></a>工具webpack or vite</h3><p>单独说一下是因为 webpack， 用过了还行 。小项目也不会太慢 ，vite听说很快，试试使用效果如何</p>
+<p><a class="link"   target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV15v4y1F793/?spm_id_from=333.337.search-card.all.click&vd_source=ead6e257f9d0d4791ca79c87c3617e07" >b站学习教程 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<ul>
+<li><p>网上图片之一 <code>vite</code></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="./image-20230401214156156.png"
+                      alt="image-20230401214156156" style="zoom:100%;" 
+                >
+
+
+</li>
+<li><p>网上图片之一 <code>webpack</code></p>
+<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="./image-20230401214114835.png"
+                      alt="image-20230401214125539" style="zoom:100%;" 
+                >
+</li>
+<li><p>创建vue3项目写法</p>
+<p>webpack：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vue create table</span><br></pre></td></tr></table></figure></div>
+
+<p> <a class="link"   target="_blank" rel="noopener" href="https://cn.vitejs.dev/guide/" >vite <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm create vite@latest //2023 04 01 官网指令</span><br><span class="line">yarn create vite name</span><br><span class="line">pnpm create vite name</span><br></pre></td></tr></table></figure></div></li>
+</ul>
+<p>实际预览：	</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/./image-20230401215351385.png"
+                      alt="image-20230401215351385"
+                ></p>
+<ul>
+<li>下载</li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pnpm install</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>运行</li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pnpm run dev</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>打包</li>
+</ul>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pnpm bulid</span><br></pre></td></tr></table></figure></div>
+
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/./image-20230401215747762.png"
+                      alt="image-20230401215747762"
+                ></p>
+<p>482ms 还挺快</p>
+<p><strong>默认版本是vue3</strong></p>
+<hr>
+<h3 id="项目开始"><a href="#项目开始" class="headerlink" title="项目开始"></a>项目开始</h3><ul>
+<li>运行效果</li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/./image-20230401221051388.png"
+                      alt="image-20230401221051388"
+                ></p>
+<hr>
+<ul>
+<li>使用 volar 代替 vetur:star:(特别是vue2转3的)</li>
+</ul>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/./image-20230401220345699.png"
+                      alt="image-20230401220345699"
+                ></p>
+<p>这种情况代码本身没有问题，程序能正常执行</p>
+<p>首先排除了和有没有使用script setup语法糖的关系</p>
+<p>但是编辑器却会出现提示，这个问题是语法提示插件的问题</p>
+<p>vue2.x之前都是使用vetur插件，vue3.x之后更换成volar插件，可以更好的支持TS，以及有类型推导。</p>
+<ul>
+<li><strong>volar 支持：</strong></li>
+</ul>
+<ol>
+<li>语法高亮</li>
+<li>typescript</li>
+<li>component auto importing</li>
+<li>script setup</li>
+</ol>
+<ul>
+<li>插件禁用就可</li>
+</ul>
+<hr>
+<h2 id="二、项目开始"><a href="#二、项目开始" class="headerlink" title="二、项目开始"></a>二、项目开始</h2><h3 id="1、setup"><a href="#1、setup" class="headerlink" title="1、setup"></a>1、setup</h3><ul>
+<li><p>了解 $children </p>
+<ul>
+<li>vue2.x ：访问当前实力的子组件</li>
+<li>vue3.x ：<ul>
+<li><code>&lt;W ref=&#39;hw&#39;&gt;</code></li>
+<li><code>this.$refs.hw</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="link"   target="_blank" rel="noopener" href="https://cn.vuejs.org/api/composition-api-setup.html" >setup <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>  官方文档</p>
+</li>
+<li><p><strong>what</strong>：组合式API  - 原来是options.API</p>
+</li>
+<li><p><strong>example</strong>：</p>
+</li>
+</ul>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">import &#123; ref &#125; from &#x27;vue&#x27;</span><br><span class="line"></span><br><span class="line">export default &#123;</span><br><span class="line">  setup() &#123;</span><br><span class="line">    const count = ref(0)</span><br><span class="line"></span><br><span class="line">    // 返回值会暴露给模板和其他的选项式 API 钩子</span><br><span class="line">    return &#123;</span><br><span class="line">      count</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line"></span><br><span class="line">  mounted() &#123;</span><br><span class="line">    console.log(this.count) // 0</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;button @click=&quot;count++&quot;&gt;&#123;&#123; count &#125;&#125;&lt;/button&gt;</span><br><span class="line">&lt;/template&gt;</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>语法糖（<strong>重点</strong>）:star:</li>
+</ul>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script setup lang=&quot;ts&quot;&gt;</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>插件</li>
+</ul>
+<p>​	unplugin-auto-import</p>
+<p>​	解决开发中引入常用内容</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i unplugin-auto-import -d</span><br></pre></td></tr></table></figure></div>
+
+<p>​	配置vue.config.js（好用）:star:</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">import &#123; defineConfig &#125; from &#x27;vite&#x27;</span><br><span class="line">import vue from &#x27;@vitejs/plugin-vue&#x27;</span><br><span class="line">import AutoImprot from &#x27;unplugin-auto-import/vite&#x27;</span><br><span class="line">// https://vitejs.dev/config/</span><br><span class="line">export default defineConfig(&#123;</span><br><span class="line">  plugins: [</span><br><span class="line">    vue(),</span><br><span class="line">    AutoImprot(&#123;</span><br><span class="line">      imports: [&#x27;vue&#x27;, &#x27;vue-router&#x27;]</span><br><span class="line">    &#125;)</span><br><span class="line">  ],</span><br><span class="line">&#125;)</span><br><span class="line">import &#123; Ref &#125; from &#x27;vue&#x27;</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="2、-复习"><a href="#2、-复习" class="headerlink" title="2、*复习"></a>2、*复习</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&lt;script setup lang=&quot;ts&quot;&gt;</span><br><span class="line">import &#123; reactive &#125; from &#x27;vue&#x27;</span><br><span class="line">let obj = reactive(&#123; a: 1, b: 2 &#125;)</span><br><span class="line">// let obj = &#123; a: 1, b: 2 &#125;</span><br><span class="line">let onCountClick = () =&gt; &#123;</span><br><span class="line">  obj.a = obj.a + 1</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;button @click=&quot;onCountClick&quot;&gt; 点我 &lt;/button&gt;</span><br><span class="line">  &lt;p&gt;&#123;&#123; obj &#125;&#125;&lt;/p&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line">.read-the-docs &#123;</span><br><span class="line">  color: #888;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><p>ts写法，lang&#x3D;”ts”</p>
+</li>
+<li><p><code>reactive</code>实现响应式 ，<code>reactive</code>接收一个普通对象并返回该对象的响应式代理，等同于Vue2.x中的<code>Vue.observable()</code>。在Vue3中，响应式数据可以通过<code>ref</code>和<code>reactive</code>实现。<a class="link"   target="_blank" rel="noopener" href="https://juejin.cn/post/6977929393511514148" >讲解 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</li>
+<li><p>响应区别</p>
+<p>vue2 : object.defineProperty（）</p>
+<p>vue3 : proxy（）</p>
+</li>
+<li><p>object.defineProperty存在的问题</p>
+<ol>
+<li>不能监听数组的变化</li>
+<li>必须遍历对象的每一个属性</li>
+<li>proxy 不需要遍历</li>
+</ol>
+</li>
+<li><p>extension</p>
+<p><strong>vue2：</strong></p>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Object</span>.<span class="title function_">keys</span>(m).<span class="title function_">forEach</span>(<span class="function"><span class="params">key</span> =&gt;</span> &#123;</span><br><span class="line">  <span class="title class_">Object</span>.<span class="title function_">defineProperty</span>(o, key, &#123;</span><br><span class="line">    get&#123;</span><br><span class="line">      <span class="keyword">return</span> m[key]</span><br><span class="line">    &#125;,</span><br><span class="line">    set&#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>vue3：</strong></p>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> o = <span class="keyword">new</span> <span class="title class_">Proxy</span>(m, &#123;</span><br><span class="line">  <span class="title function_">get</span>(<span class="params">target, key, receiver</span>) &#123;</span><br><span class="line">    <span class="comment">//return Reflect.get(target, key, receiver)</span></span><br><span class="line">    <span class="keyword">return</span> target[key]</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="title function_">set</span>(<span class="params">target, key, value,receiver</span>) &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="title class_">Reflect</span>.<span class="title function_">set</span>(target, key, value,receiver)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div></li>
+</ul>
+<h3 id="3-ref，reactive"><a href="#3-ref，reactive" class="headerlink" title="3. ref，reactive"></a>3. ref，reactive</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; ref, reactive &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> count = <span class="title function_">ref</span>(<span class="number">0</span>)</span><br><span class="line"><span class="keyword">let</span> obj = <span class="title function_">reactive</span>(&#123; <span class="attr">a</span>: <span class="number">1</span>, <span class="attr">b</span>: <span class="number">2</span> &#125;)</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><p><code>ref</code> : 定义简单的数据类型 boolean string 普通数值 number  value</p>
+</li>
+<li><p><code>reactive</code>： 定义复杂的数据类型 obj array</p>
+</li>
+</ul>
+<h3 id="4-router"><a href="#4-router" class="headerlink" title="4. *router"></a>4. *router</h3><p>先看下项目结构</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230403162716244.png"
+                      alt="image-20230403162716244"
+                ></p>
+<ul>
+<li><p>安装路由依赖模块</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install vue-router</span><br></pre></td></tr></table></figure></div>
+</li>
+<li><p>在src文件夹下新建router文件夹，在router文件夹下新建index.js文件</p>
+</li>
+<li><p>在index.js文件下配置路由</p>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; createRouter, createWebHistory &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span></span><br><span class="line"><span class="comment">//注册路由</span></span><br><span class="line"><span class="keyword">const</span> routes = [</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="attr">path</span>: <span class="string">&#x27;/&#x27;</span>,</span><br><span class="line">        <span class="attr">name</span>: <span class="string">&#x27;Box1&#x27;</span>,</span><br><span class="line">        <span class="attr">component</span>: <span class="function">() =&gt;</span> <span class="keyword">import</span>(<span class="string">&#x27;../Box1.vue&#x27;</span>)</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="attr">path</span>: <span class="string">&#x27;/hi&#x27;</span>,</span><br><span class="line">        <span class="attr">name</span>: <span class="string">&#x27;hi&#x27;</span>,</span><br><span class="line">        <span class="attr">component</span>: <span class="function">() =&gt;</span> <span class="keyword">import</span>(<span class="string">&#x27;../components/hi.vue&#x27;</span>)</span><br><span class="line">    &#125;</span><br><span class="line">];</span><br><span class="line"><span class="keyword">const</span> router = <span class="title function_">createRouter</span>(&#123;</span><br><span class="line"><span class="comment">// createWebHashHistory()是使用hash模式路由</span></span><br><span class="line"><span class="comment">// createWebHistory()是使用history模式路由</span></span><br><span class="line">    <span class="attr">history</span>: <span class="title function_">createWebHistory</span>(),</span><br><span class="line">    routes</span><br><span class="line">&#125;);</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> router;</span><br></pre></td></tr></table></figure></div></li>
+</ul>
+<h3 id="5-生命周期（重点）"><a href="#5-生命周期（重点）" class="headerlink" title="5. 生命周期（重点）"></a>5. 生命周期（重点）</h3><ul>
+<li>选项式API vue2<ul>
+<li>created beforeCreate mounted</li>
+</ul>
+</li>
+<li>组合式API vue3:star:<ul>
+<li>没有beforeCreate created</li>
+<li>其他生命周期前面加on onMounted</li>
+</ul>
+</li>
+</ul>
+<h3 id="6-toRefs-toRef"><a href="#6-toRefs-toRef" class="headerlink" title="6. toRefs toRef"></a>6. toRefs toRef</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; ref, reactive, onMounted, toRefs &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;  </span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> obj = <span class="title function_">reactive</span>(&#123;</span><br><span class="line">    <span class="attr">name</span>: <span class="string">&#x27;ab&#x27;</span>,</span><br><span class="line">    <span class="attr">age</span>: <span class="number">18</span>,</span><br><span class="line">  &#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> &#123; name, age &#125; = <span class="title function_">toRefs</span>(obj);</span><br><span class="line"></span><br><span class="line">&#123;&#123; name &#125;&#125;</span><br><span class="line">&#123;&#123; age &#125;&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="7-computed-计算属性"><a href="#7-computed-计算属性" class="headerlink" title="7.  computed 计算属性"></a>7.  computed 计算属性</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> msg = <span class="title function_">ref</span>(<span class="string">&#x27;这是一个ref响应式数据变化&#x27;</span>);</span><br><span class="line"><span class="comment">//1 两种写法</span></span><br><span class="line">  <span class="keyword">let</span> msgChange = <span class="title function_">computed</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> msg.<span class="property">value</span>.<span class="title function_">slice</span>(<span class="number">1</span>, <span class="number">3</span>);</span><br><span class="line">  &#125;);</span><br><span class="line"><span class="comment">//2</span></span><br><span class="line"> <span class="keyword">let</span> msgChange = <span class="title function_">computed</span>(&#123;</span><br><span class="line">    <span class="title function_">get</span>(<span class="params"></span>) &#123;&#125;,</span><br><span class="line">    <span class="title function_">set</span>(<span class="params"></span>) &#123;&#125;,<span class="comment">//修改触发</span></span><br><span class="line">  &#125;);</span><br><span class="line"><span class="comment">//3</span></span><br><span class="line"><span class="keyword">let</span> obj = <span class="title function_">reactive</span>(&#123;</span><br><span class="line">    <span class="attr">str</span>: <span class="title function_">computed</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">      <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;),</span><br><span class="line">  &#125;);</span><br><span class="line"></span><br><span class="line">  &#123;&#123; msg &#125;&#125;&gt;&gt;&gt;&#123;&#123; msgChange &#125;&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="8-watch"><a href="#8-watch" class="headerlink" title="8.  watch"></a>8.  watch</h3><p> watch是一个对象，一定要当成对象来用。 对象就有键，有值。 <a class="link"   target="_blank" rel="noopener" href="https://blog.csdn.net/qq_40323256/article/details/101907326" >vue2中的理解 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<ul>
+<li><code>handler</code> ：回调函数 ()&#x3D;{}</li>
+<li><code>deep</code>：深度监听 boolean</li>
+<li><code>immediate</code>：深度监听 确认是否以当前的初始值执行handler的函数</li>
+</ul>
+<ol>
+<li>多个监控</li>
+</ol>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">watch</span>(obj.<span class="property">arr</span>, <span class="function">(<span class="params">newVal, oldVal</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(newVal, oldVal);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></div>
+
+<ol start="2">
+<li>监听对象中某一个对象</li>
+</ol>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">watch</span>(</span><br><span class="line">  <span class="function">() =&gt;</span> obj.<span class="property">arr</span>,</span><br><span class="line">  <span class="function">(<span class="params">newVal, oldVal</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(newVal, oldVal);</span><br><span class="line">  &#125;,</span><br><span class="line">);</span><br></pre></td></tr></table></figure></div>
+
+<ol start="3">
+<li>watchEffect  立即执行监听函数</li>
+</ol>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; ref, reactive, watchEffect, watch &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>; </span><br><span class="line"><span class="comment">//   watchEffect  1 初始化也会执行   2 符合watch内容</span></span><br><span class="line"><span class="title function_">watchEffect</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(msg.<span class="property">value</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="9-路由"><a href="#9-路由" class="headerlink" title="9. 路由"></a>9. 路由</h3><p>跳转、传值、导航卫士……………</p>
+<ul>
+<li><p>createWebHashHistory() 是使用hash模式路由</p>
+</li>
+<li><p>createWebHistory() 是使用history模式路由</p>
+</li>
+</ul>
+<p>useRoute&#x3D;&gt;this.$route</p>
+<p>useRouter&#x3D;&gt;this.$router</p>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">router.<span class="title function_">beforeEach</span>(<span class="function">(<span class="params">news, old, next</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="title function_">next</span>();</span><br><span class="line">&#125;)</span><br><span class="line"><span class="comment">// 2</span></span><br><span class="line">&lt;script setup lang=<span class="string">&quot;ts&quot;</span>&gt;</span><br><span class="line">  <span class="keyword">import</span> &#123; useRoute, useRouter &#125; <span class="keyword">from</span> <span class="string">&#x27;vue-router&#x27;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> router = <span class="keyword">new</span> (useRouter <span class="keyword">as</span> any)();</span><br><span class="line">  <span class="comment">//   let route = new useRoute();</span></span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span> <span class="attr">lang</span>=<span class="string">&quot;ts&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">template</span>&gt;</span> <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="9-组件-父传子"><a href="#9-组件-父传子" class="headerlink" title="9. 组件-父传子"></a>9. 组件-父传子</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;script setup lang=<span class="string">&quot;ts&quot;</span>&gt;</span><br><span class="line">  <span class="keyword">import</span> &#123; defineProps &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="title function_">defineProps</span>(&#123;</span><br><span class="line">    <span class="attr">msg</span>: &#123; <span class="attr">type</span>: <span class="title class_">String</span> &#125;,</span><br><span class="line">  &#125;);</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span> <span class="attr">lang</span>=<span class="string">&quot;ts&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">template</span>&gt;</span> <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span></span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="10-组件-子传父"><a href="#10-组件-子传父" class="headerlink" title="10.组件 子传父"></a>10.组件 子传父</h3><p>子</p>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&lt;script setup lang=<span class="string">&quot;ts&quot;</span>&gt;</span><br><span class="line">  <span class="keyword">import</span> &#123; defineEmits, ref &#125; <span class="keyword">from</span> <span class="string">&#x27;vue&#x27;</span>;</span><br><span class="line">  <span class="keyword">let</span> num = <span class="title function_">ref</span>(<span class="number">100</span>);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> emit = defineEmits&lt;&#123;</span><br><span class="line">    (<span class="attr">e</span>: <span class="string">&#x27;fn&#x27;</span>, <span class="attr">id</span>: number): <span class="keyword">void</span>;</span><br><span class="line">  &#125;&gt;();</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">changeNum</span> = (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">    <span class="title function_">emit</span>(<span class="string">&#x27;fn&#x27;</span>, num <span class="keyword">as</span> any);</span><br><span class="line">  &#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">template</span>&gt;</span> <span class="tag">&lt;<span class="name">button</span> @<span class="attr">click</span>=<span class="string">&quot;changeNum&quot;</span>&gt;</span>sssss <span class="tag">&lt;/<span class="name">button</span>&gt;</span><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<p>父</p>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;script setup lang=<span class="string">&quot;ts&quot;</span>&gt;</span><br><span class="line">  <span class="keyword">import</span> <span class="title class_">Child</span> <span class="keyword">from</span> <span class="string">&#x27;./child.vue&#x27;</span>;</span><br><span class="line">  <span class="keyword">const</span> <span class="title function_">changeChild</span> = (<span class="params">n: any</span>) =&gt; &#123;&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">  <span class="tag">&lt;<span class="name">Child</span> @<span class="attr">fn</span>=<span class="string">&quot;changeChild&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">Child</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span></span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="11-v-mode-传值"><a href="#11-v-mode-传值" class="headerlink" title="11.v-mode 传值"></a>11.v-mode 传值</h3><h3 id="12-兄弟组件传值"><a href="#12-兄弟组件传值" class="headerlink" title="12. 兄弟组件传值"></a>12. 兄弟组件传值</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">npm install mitt -s</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> mitt <span class="keyword">from</span> <span class="string">&#x27;mitt&#x27;</span></span><br><span class="line"><span class="keyword">const</span> emitter=<span class="title function_">mitt</span>()</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> emitter;</span><br><span class="line"></span><br><span class="line">emitter.<span class="title function_">emit</span>(<span class="string">&quot;fun&quot;</span>,str)</span><br><span class="line">emitter.<span class="title function_">on</span>(<span class="string">&#x27;fn&#x27;</span>,<span class="function"><span class="params">e</span>=&gt;</span>&#123;</span><br><span class="line">    s.<span class="property">value</span>=e.<span class="property">value</span>;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="13-插槽"><a href="#13-插槽" class="headerlink" title="13.插槽"></a>13.插槽</h3><ul>
+<li>匿名插槽</li>
+</ul>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;A&gt;</span><br><span class="line">    aaaa</span><br><span class="line">&lt;/A&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">slot</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>具名插槽</li>
+<li>作用域插槽</li>
+<li>动态插槽</li>
+</ul>
+<h3 id="14-Teleport-传送"><a href="#14-Teleport-传送" class="headerlink" title="14. Teleport 传送"></a>14. Teleport 传送</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;script setup lang=<span class="string">&quot;ts&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">template</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">  <span class="tag">&lt;<span class="name">Teleport</span> <span class="attr">to</span>=<span class="string">&quot;body&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">Teleport</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">  <span class="tag">&lt;<span class="name">Teleport</span> <span class="attr">to</span>=<span class="string">&quot;#container&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">Teleport</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">  <span class="tag">&lt;<span class="name">Teleport</span> <span class="attr">to</span>=<span class="string">&quot;.main&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">Teleport</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">template</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
+
+<p><strong>注意顺序</strong></p>
+<h3 id="15-异步组件"><a href="#15-异步组件" class="headerlink" title="15. 异步组件"></a>15. 异步组件</h3><p>异步组件有单独的js文件，是从主体js分包出来的   没看</p>
+<h3 id="16-Mixin-混入"><a href="#16-Mixin-混入" class="headerlink" title="16. Mixin  混入"></a>16. Mixin  混入</h3><ul>
+<li>what 可复用</li>
+</ul>
+<p>minix.vue</p>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;!-- <span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;height: 200px&quot;</span>&gt;</span>P<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span> --&gt;</span><br><span class="line"></span><br><span class="line">  &#123;&#123; x &#125;&#125;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">setup</span> <span class="attr">lang</span>=<span class="string">&quot;ts&quot;</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  <span class="keyword">import</span> minix <span class="keyword">from</span> <span class="string">&#x27;./minix&#x27;</span>;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  <span class="comment">//   console.log(minix());</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  <span class="keyword">let</span> &#123; x, changeOn &#125; = <span class="title function_">minix</span>();</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">style</span> <span class="attr">scoped</span>&gt;</span><span class="language-css"></span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">  <span class="selector-tag">div</span> &#123;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">    <span class="attribute">background</span>: red;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">    <span class="attribute">width</span>: <span class="number">300px</span>;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml">  &#125;</span></span></span><br><span class="line"><span class="language-css"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span></span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<p>minix.ts</p>
+<div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; ref &#125; <span class="keyword">from</span> <span class="string">&quot;vue&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">let</span> x = <span class="title function_">ref</span>(<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> <span class="title function_">changeOn</span> = (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">        x.<span class="property">value</span> += <span class="number">1</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">        x, changeOn</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="17-Provide-、Inject-依赖注入"><a href="#17-Provide-、Inject-依赖注入" class="headerlink" title="17.  Provide 、Inject  依赖注入"></a>17.  Provide 、Inject  依赖注入</h3><div class="highlight-container" data-rel="Js"><figure class="iseeu highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//提供：</span></span><br><span class="line"><span class="title function_">provide</span>(<span class="string">&#x27;changeNum&#x27;</span>,num)</span><br><span class="line"><span class="comment">//注入:</span></span><br><span class="line"><span class="keyword">const</span> <span class="title class_">Num</span> = <span class="title function_">inject</span>(<span class="string">&#x27;changNum&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="18-vuex"><a href="#18-vuex" class="headerlink" title="18.  vuex"></a>18.  vuex</h3><p>Vuex持久化存储【插件】</p>
+<p><code>npm i vuex-persistedstate  -s</code></p>
+<h3 id="19-pinia-状态管理"><a href="#19-pinia-状态管理" class="headerlink" title="19. pinia  状态管理"></a>19. pinia  状态管理</h3><h3 id="20-分模块"><a href="#20-分模块" class="headerlink" title="20. 分模块"></a>20. 分模块</h3><h2 id="三、结束"><a href="#三、结束" class="headerlink" title="三、结束"></a>三、结束</h2>
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> Redefine 主题使用指南</li>
+        <li><strong>作者:</strong> 六月</li>
+        <li><strong>创建于:</strong> 2022-09-28 11:45:14</li>
+        
+            <li>
+                <strong>更新于:</strong> 2023-04-19 23:09:49
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://redefine.ohevan.com/2022/09/28/vue3体验/
+        </li>
+        <li>
+            <strong>版权声明:</strong> 本文章采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a> 进行许可。
+        </li>
+    </ul>
+</div>
+
+                </div>
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/tags/">#tags</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                            rel="prev"
+                            href="/2023/04/19/Hexo-Theme-Sakura/"
+                            >
+                                <span class="left arrow-icon flex-center">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </span>
+                                <span class="title flex-center">
+                                    <span class="post-nav-title-item">hexo初次体验</span>
+                                    <span class="post-nav-item">上一篇</span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                    
+                </div>
+            
+
+
+            
+                <div class="comment-container">
+                    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fa-solid fa-comments"></i>&nbsp;评论
+    </div>
+    
+
+        
+            
+ 
+    <div id="waline"></div>
+    <script type="module"  data-pjax>
+        import { init } from 'https://evan.beee.top/js/waline.mjs';
+
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://example.example.com',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+            });
+        }
+
+        if ('true') {
+            const loadWalineTimeout = setTimeout(() => {
+                loadWaline();
+                clearTimeout(loadWalineTimeout);
+            }, 1000);
+        } else {
+            window.addEventListener('DOMContentLoaded', loadWaline);
+        }
+        
+    </script>
+
+
+
+        
+    
+</div>
+
+                </div>
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">此页目录</div>
+        <div class="page-title">Redefine 主题使用指南</div>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#vue3-TS-vite-star-star-star-star-star"><span class="nav-text">vue3+TS+vite :star::star::star::star::star:</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%87%86%E5%A4%87"><span class="nav-text">一、准备</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA"><span class="nav-text">创建</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%A5%E5%85%B7webpack-or-vite"><span class="nav-text">工具webpack or vite</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%A7%8B"><span class="nav-text">项目开始</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%A7%8B"><span class="nav-text">二、项目开始</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1%E3%80%81setup"><span class="nav-text">1、setup</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2%E3%80%81-%E5%A4%8D%E4%B9%A0"><span class="nav-text">2、*复习</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-ref%EF%BC%8Creactive"><span class="nav-text">3. ref，reactive</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-router"><span class="nav-text">4. *router</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%EF%BC%88%E9%87%8D%E7%82%B9%EF%BC%89"><span class="nav-text">5. 生命周期（重点）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-toRefs-toRef"><span class="nav-text">6. toRefs toRef</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-computed-%E8%AE%A1%E7%AE%97%E5%B1%9E%E6%80%A7"><span class="nav-text">7.  computed 计算属性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-watch"><span class="nav-text">8.  watch</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-%E8%B7%AF%E7%94%B1"><span class="nav-text">9. 路由</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-%E7%BB%84%E4%BB%B6-%E7%88%B6%E4%BC%A0%E5%AD%90"><span class="nav-text">9. 组件-父传子</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#10-%E7%BB%84%E4%BB%B6-%E5%AD%90%E4%BC%A0%E7%88%B6"><span class="nav-text">10.组件 子传父</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#11-v-mode-%E4%BC%A0%E5%80%BC"><span class="nav-text">11.v-mode 传值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#12-%E5%85%84%E5%BC%9F%E7%BB%84%E4%BB%B6%E4%BC%A0%E5%80%BC"><span class="nav-text">12. 兄弟组件传值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#13-%E6%8F%92%E6%A7%BD"><span class="nav-text">13.插槽</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#14-Teleport-%E4%BC%A0%E9%80%81"><span class="nav-text">14. Teleport 传送</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#15-%E5%BC%82%E6%AD%A5%E7%BB%84%E4%BB%B6"><span class="nav-text">15. 异步组件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#16-Mixin-%E6%B7%B7%E5%85%A5"><span class="nav-text">16. Mixin  混入</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#17-Provide-%E3%80%81Inject-%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5"><span class="nav-text">17.  Provide 、Inject  依赖注入</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#18-vuex"><span class="nav-text">18.  vuex</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#19-pinia-%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86"><span class="nav-text">19. pinia  状态管理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#20-%E5%88%86%E6%A8%A1%E5%9D%97"><span class="nav-text">20. 分模块</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E7%BB%93%E6%9D%9F"><span class="nav-text">三、结束</span></a></li></ol></li></ol>
+
+    </div>
+</div>
+            </div>
+        
+    </div>
+</div>
+
+
+                
+
+            </div>
+            
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info">
+            &copy;
+            
+              <span>2022</span>
+              -
+            
+            2023&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">六月</a>
+        </div>
+        
+            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv" class="busuanzi_container_site_uv">
+                        访问人数&nbsp;<span id="busuanzi_value_site_uv" class="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="busuanzi_container_site_pv">
+                        总访问量&nbsp;<span id="busuanzi_value_site_pv" class="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            <span class="powered-by-container">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" href="https://hexo.io">Hexo</a> 驱动</span>
+                <br>
+            <span class="theme-version-container">主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.1.2</a>
+        </div>
+        
+        
+        
+            <div id="start_div" style="display:none">
+                2022/8/17 11:45:14
+            </div>
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+        
+            <script async data-pjax>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-expand-width flex-center">
+            <i class="fa-regular fa-expand"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/layouts/navbarShrink.js"></script>
+
+<script src="/js/tools/scrollTopBottom.js"></script>
+
+<script src="/js/tools/lightDarkSwitch.js"></script>
+
+
+
+
+
+    
+<script src="/js/tools/codeBlock.js"></script>
+
+
+
+
+    
+<script src="/js/layouts/lazyload.js"></script>
+
+
+
+
+    
+<script src="/js/tools/runtime.js"></script>
+
+    
+<script src="/js/layouts/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/libs/Typed.min.js"></script>
+
+  
+<script src="/js/plugins/typed.js"></script>
+
+
+
+
+
+
+
+<div class="post-scripts pjax">
+    
+        
+<script src="/js/tools/tocToggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/layouts/toc.js"></script>
+
+<script src="/js/plugins/tabs.js"></script>
+
+    
+</div>
+
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax',
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            Global.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            Global.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            Global.refresh();
+        });
+    });
+</script>
+
+
+
+
+</body>
+</html>
