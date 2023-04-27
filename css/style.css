@@ -7443,7 +7443,7 @@ pre .deletion {
 }
 .home-content-container .home-article-list .home-article-item .home-article-thumbnail {
   position: relative;
-  height: 400px;
+  height: 300px;
   padding-bottom: 28px;
   overflow: hidden;
   border-radius: 18px 18px 0px 0px;
